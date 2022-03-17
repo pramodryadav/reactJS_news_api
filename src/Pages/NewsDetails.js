@@ -3,6 +3,7 @@ import {} from '../App'
 import {useParams } from 'react-router-dom'
 
 function NewsDetails(props) {
+  console.log("hello Vipul");
   const params = useParams();
   
 
