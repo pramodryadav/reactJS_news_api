@@ -22,7 +22,6 @@ const useFav = () => {
 
     }, [data]);
 
-    console.log("favList,",favList);
 
     const handleClickReadMore = (news) => {
         window.open(news.url)

@@ -24,7 +24,6 @@ function ResponsiveAppBar() {
     const [anchorElUser, setAnchorElUser] = React.useState(null);
     const profileData = JSON.parse(localStorage.getItem("userData"));
 
-    console.log("profileData", profileData);
 
     const navigate = useNavigate()
 
